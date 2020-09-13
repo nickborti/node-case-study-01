@@ -3,5 +3,6 @@ module.exports = {
   uname: 'root',
   pw: '',
   host: 'localhost',
-  dialect: 'mysql'
+  dialect: 'mysql',
+  tokensecret: '#4hjk2#4$$$/459abslysdfbgk#%hdfgsdfbkj#@#%%ndfjgdfd$%%'
 };

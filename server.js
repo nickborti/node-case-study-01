@@ -10,5 +10,6 @@ const authRoute = require('./router/auth');
 const testRoute = require('./router/test');
 
 app.use('/api/auth', authRoute);
+app.use('/api/test', testRoute);
 
 app.listen(PORT, () => console.log(`Listening to PORT ${PORT}`));
