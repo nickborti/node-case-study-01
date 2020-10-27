@@ -1,21 +1,24 @@
 {
-  "name": "case_study",
+  "name": "node-case-study-v2",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "cors": "^2.8.5",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "busboy-body-parser": "^0.3.2",
     "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
     "mysql2": "^2.1.0",
-    "sequelize": "5.22.3"
+    "sequelize": "5.22.3",
+    "swagger-ui-express": "^4.1.4"
   }
 }
